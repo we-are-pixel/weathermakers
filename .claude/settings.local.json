@@ -18,7 +18,8 @@
       "Bash(grep:*)",
       "Bash(git push:*)",
       "Bash(gh repo list:*)",
-      "Bash(rg:*)"
+      "Bash(rg:*)",
+      "Bash(find:*)"
     ],
     "deny": [],
     "ask": [],
