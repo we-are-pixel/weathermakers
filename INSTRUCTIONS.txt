@@ -1,0 +1,22 @@
+INSTRUCTIONS FOR FIXING THE REPOSITORY
+=========================================
+
+Problem: The repository contains 144 files with invalid Windows characters.
+
+SOLUTION:
+
+1. Install git-filter-repo:
+   pip install git-filter-repo
+
+2. Run the fix script:
+   bash fix_repository.sh
+
+3. Clone the cleaned repository:
+   git clone weathermakers-temp weathermakers-clean
+
+The script will:
+- Clone the repository as a bare repo
+- Apply 144 filename fixes
+- Create a clean repository you can use on Windows
+
+See rename_mapping.txt for all file renames.

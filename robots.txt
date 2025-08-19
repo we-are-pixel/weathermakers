@@ -1,0 +1,10 @@
+User-agent: * 
+
+Allow: /
+Disallow: /blog/wp-admin/
+Disallow: /manager
+Disallow: /about/promotions/print-details
+Disallow: /*/thanks
+Disallow: /cgi-bin/
+
+Sitemap: https://www.weathermakerscomfort.com/sitemap.xml

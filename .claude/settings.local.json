@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git pull:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git config:*)",
+      "Bash(powershell:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(bash:*)",
+      "Bash(git clone:*)",
+      "Bash(git reset:*)",
+      "Bash(git sparse-checkout:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "D:\\Dropbox"
+    ]
+  }
+}
